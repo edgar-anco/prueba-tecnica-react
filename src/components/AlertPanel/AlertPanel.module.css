@@ -1,0 +1,112 @@
+.panel {
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.success {
+  background: #d5f5e3;
+  border-color: #27ae60;
+}
+
+.success h3 {
+  color: #1e8449;
+  margin-bottom: 10px;
+}
+
+.success p {
+  color: #1e8449;
+  margin-bottom: 12px;
+}
+
+.ruleList {
+  list-style: none;
+}
+
+.ruleList li {
+  color: #1e8449;
+  padding: 4px 0;
+  font-size: 0.9rem;
+}
+
+.ruleList li::before {
+  content: "OK";
+  display: inline-block;
+  background: #27ae60;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.error {
+  background: #fadbd8;
+  border-color: #e74c3c;
+}
+
+.warning {
+  background: #fdebd0;
+  border-color: #f39c12;
+}
+
+.error h3,
+.error h4 {
+  color: #c0392b;
+}
+
+.warning h3,
+.warning h4 {
+  color: #d68910;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section h4 {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.errorList,
+.warningList {
+  list-style: none;
+}
+
+.errorList li,
+.warningList li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.85rem;
+}
+
+.errorList li:last-child,
+.warningList li:last-child {
+  border-bottom: none;
+}
+
+.errorType {
+  display: inline-block;
+  background: #e74c3c;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.errorMessage {
+  color: #333;
+}
+
+.moreErrors {
+  font-style: italic;
+  color: #7f8c8d;
+}

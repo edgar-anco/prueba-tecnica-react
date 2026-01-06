@@ -1,0 +1,71 @@
+.legend {
+  background: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1rem;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.climb {
+  background: #3498db;
+  color: white;
+}
+
+.induction {
+  background: #f39c12;
+  color: white;
+}
+
+.drilling {
+  background: #27ae60;
+  color: white;
+}
+
+.descent {
+  background: #e74c3c;
+  color: white;
+}
+
+.rest {
+  background: #95a5a6;
+  color: white;
+}
+
+.empty {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  color: #bdc3c7;
+}
