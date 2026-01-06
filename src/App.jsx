@@ -1,4 +1,4 @@
-import { ConfigForm, ScheduleGrid, AlertPanel, Legend } from './components'
+import { ConfigForm, ScheduleGrid, AlertPanel, Legend, Statistics } from './components'
 import { useScheduler } from './hooks/useScheduler'
 import styles from './App.module.css'
 
@@ -28,10 +28,13 @@ function App() {
         )}
 
         {scheduleData && (
-          <ScheduleGrid
-            scheduleData={scheduleData}
-            errorDays={errorDays}
-          />
+          <>
+            <Statistics scheduleData={scheduleData} />
+            <ScheduleGrid
+              scheduleData={scheduleData}
+              errorDays={errorDays}
+            />
+          </>
         )}
       </main>
 
