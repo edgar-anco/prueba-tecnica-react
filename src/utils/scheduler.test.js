@@ -113,7 +113,7 @@ describe('generateSchedule', () => {
       workDays: 14,
       restDays: 6,
       inductionDays: 4,
-      totalDrillingDays: 95
+      totalDrillingDays: 90
     }
 
     it('should generate valid schedule', () => {
